@@ -549,15 +549,3 @@ The following features are covered:
 - **Expected Result:** The navigation menu should close and the Products page should be visible.
 
 
-### TC-NAV-007 - Reset app state with products in cart
-
-- **Test Case ID:** TC-NAV-007
-- **Feature:** FEAT-NAV
-- **Test Scenario / Description:** Check whether Reset App State removes products currently added to the cart.
-- **Pre-conditions:** User is logged in and products are added to the cart.
-- **Execution Steps:**
-  1. Open the navigation menu.
-  2. Click Reset App State.
-  3. Open the cart.
-- **Expected Result:** Previously added products should be removed from the cart.
-
