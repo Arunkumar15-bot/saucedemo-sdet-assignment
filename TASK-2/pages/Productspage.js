@@ -7,7 +7,13 @@ class Productspage {
         this.sortdropdown = page.locator('[data-test="product-sort-container"]');
         this.cartlink = page.locator('.shopping_cart_link');
     }
+    async addproduct(productname) 
+    { 
+        const product = this.page.locator('.inventory_item') .filter({ hasText: productname });
 
+     await product.getByRole('button', { name: 'Add to cart' }).click();
+
+     }
     async getproductcount() {
         return await this.productitems.count();
     }
@@ -19,6 +25,7 @@ class Productspage {
     async selectsort(option) {
         await this.sortdropdown.selectOption(option);
     }
+    
 }
 
 module.exports = { Productspage };
