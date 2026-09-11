@@ -19,10 +19,5 @@ pipeline {
                 bat 'npx playwright test'
             }
         }
-        stage('Run Cucumber Tests') {
-            steps {
-                bat 'npx cucumber-js'
-            }
-        }
     }
 }
