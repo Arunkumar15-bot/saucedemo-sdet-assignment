@@ -10,7 +10,6 @@ The following features are covered:
 - FEAT-CHK - Checkout Flow & Order Processing
 - FEAT-NAV - Navigation & System UI
 
-
 # FEAT-AUTH - Authentication & Session Management
 
 ### TC-AUTH-001 - Login with valid credentials
